@@ -1,0 +1,21 @@
+{
+    "name": "ts-jest-issue-repro",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "devDependencies": {
+        "@types/jest": "26.0.12",
+        "jest": "26.4.2",
+        "ts-jest": "26.3.0",
+        "typescript": "4.9.4"
+    },
+    "dependencies": {
+      "@me/test-package": "file:./my-package/dist/me-test-package-0.0.1.tgz"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
