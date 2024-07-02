@@ -1,0 +1,15 @@
+{
+    "extends": "./tsconfig.json",
+    "compileOnSave": true,
+    "compilerOptions": {
+      "inlineSources": true,
+    "module": "commonjs",
+    "target": "ES2019",
+    "types": ["jest", "node"],
+      },
+      "include": [
+        "**/*"
+    ],
+    "exclude": ["**/*.js"]
+  }
+  
